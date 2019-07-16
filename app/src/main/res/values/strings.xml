@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IATA example</string>
+
+    <string name="content_description_flight">Flight</string>
+    <string name="city">City</string>
+    <string name="airport">Airport</string>
+</resources>

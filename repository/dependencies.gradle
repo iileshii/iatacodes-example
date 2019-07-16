@@ -1,0 +1,19 @@
+dependencies {
+    implementation project(moduleLogger)
+    implementation project(moduleDomain)
+
+    implementation lifecycleExtensions
+
+    implementation kotlinStdLib
+    implementation retrofit
+    implementation retrofitConverter
+    implementation okHttpLoggingInterceptor
+    implementation kotlinSerializationRuntime
+
+    testImplementation jUnit
+    testImplementation okHttpMock
+
+    androidTestImplementation androidXTestRunner
+    androidTestImplementation androidXTestCore
+    androidTestImplementation androidXJUnit
+}

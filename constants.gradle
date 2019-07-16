@@ -1,0 +1,66 @@
+ext {
+    kotlinVersion = '1.3.41'
+    gradleVersion = '3.4.2'
+
+    kotlinSerializationVersion = '0.11.1'
+
+    appcompatVersion = '1.0.2'
+    androidXCoreVersion = '1.0.2'
+    recyclerViewVersion = '1.0.0'
+    constraintLayoutVersion = '1.1.3'
+
+    navigationVersion = '1.0.0'
+
+    okHttpVersion = '4.0.1'
+    retrofitVersion = '2.6.0'
+    retrofitSerializationConverter = '0.4.0'
+
+    timberVersion = '4.7.1'
+    lifecycleVersion = '1.1.1'
+    lifecycleKtxVersion = '2.0.0'
+
+    testJUnitVersion = '4.12'
+
+    testAndroidCoreVersion = '1.2.0'
+    testAndroidRunnerVersion = '1.1.1'
+    testAndroidEspressoVersion = '3.2.0'
+
+    kotlinGradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+    kotlinSerialization = "org.jetbrains.kotlin:kotlin-serialization:$kotlinVersion"
+    gradlePlugin = "com.android.tools.build:gradle:$gradleVersion"
+
+    kotlinSerializationRuntime = "org.jetbrains.kotlinx:kotlinx-serialization-runtime:$kotlinSerializationVersion"
+
+    kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
+    appcompat = "androidx.appcompat:appcompat:$appcompatVersion"
+    androidXCore = "androidx.core:core-ktx:$androidXCoreVersion"
+    constraintLayout = "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+
+    navigationFragment = "android.arch.navigation:navigation-fragment-ktx:$navigationVersion"
+    navigationUi = "android.arch.navigation:navigation-ui-ktx:$navigationVersion"
+
+    lifecycleViewModelKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleKtxVersion"
+    lifecycleViewModel = "android.arch.lifecycle:viewmodel:$lifecycleVersion"
+    lifecycleExtensions = "android.arch.lifecycle:extensions:$lifecycleVersion"
+    lifecycleCompiler = "android.arch.lifecycle:compiler:$lifecycleVersion"
+    recyclerView = "androidx.recyclerview:recyclerview:$recyclerViewVersion"
+
+    okHttp = "com.squareup.okhttp3:okhttp:$okHttpVersion"
+    okHttpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:$okHttpVersion"
+
+    retrofit = "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    retrofitConverter = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:$retrofitSerializationConverter"
+    timber = "com.jakewharton.timber:timber:$timberVersion"
+
+    jUnit = "junit:junit:$testJUnitVersion"
+    okHttpMock = "com.squareup.okhttp3:mockwebserver:$okHttpVersion"
+
+    androidXJUnit = "androidx.test.ext:junit:$testAndroidRunnerVersion"
+    androidXTestCore = "androidx.test:core:$testAndroidCoreVersion"
+    androidXTestRunner = "androidx.test:runner:$testAndroidCoreVersion"
+    espressoCore  = "androidx.test.espresso:espresso-core:$testAndroidEspressoVersion"
+
+    moduleLogger = ':logger'
+    moduleRepository = ':repository'
+    moduleDomain = ':domain'
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/main_navigation"
+            app:startDestination="@id/city_fragment">
+
+    <fragment
+            android:id="@+id/city_fragment"
+            android:name="mobi.jedi.example.iata.city.CityFragment"
+            android:label="CityFragment"
+            tools:layout="@layout/fragment_recycler"/>
+    <fragment
+            android:id="@+id/airport_fragment"
+            android:name="mobi.jedi.example.iata.airport.AirportFragment"
+            android:label="AirportFragment"
+            tools:layout="@layout/fragment_recycler"/>
+
+</navigation>

@@ -1,0 +1,26 @@
+dependencies {
+    implementation project(moduleLogger)
+    implementation project(moduleRepository)
+    implementation project(moduleDomain)
+
+    implementation kotlinStdLib
+    implementation appcompat
+    implementation androidXCore
+    implementation constraintLayout
+    implementation recyclerView
+
+    implementation navigationFragment
+    implementation navigationUi
+
+    implementation lifecycleViewModelKtx
+    implementation lifecycleViewModel
+    implementation lifecycleExtensions
+    annotationProcessor lifecycleCompiler
+
+    testImplementation jUnit
+
+    androidTestImplementation androidXTestRunner
+    androidTestImplementation androidXTestCore
+    androidTestImplementation androidXJUnit
+    androidTestImplementation espressoCore
+}

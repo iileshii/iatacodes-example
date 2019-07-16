@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/city_fragment"
+            android:icon="@drawable/ic_city_black_24dp"
+            android:title="@string/city"/>
+    <item
+            android:id="@+id/airport_fragment"
+            android:icon="@drawable/ic_plane_black_24dp"
+            android:title="@string/airport"/>
+</menu>

@@ -15,3 +15,5 @@ todo. proguard is not set properly for release build
 todo. testing
 todo. search
 todo. local database
+todo. offline mode
+todo. handle server errors

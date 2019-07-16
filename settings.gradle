@@ -1,0 +1,1 @@
+include ':app', ':logger', ':repository', ':domain'
